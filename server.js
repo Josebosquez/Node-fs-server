@@ -34,6 +34,7 @@ http
             if (error){
                 response.end(error);
             } else {
+                console.log("randomtext.txt created");
                 response.end("randomText.txt created")
             }
         })
@@ -48,6 +49,7 @@ http
                 if (error){
                     response.end(error);
                 } else {
+                    console.log("verbage.txt created");
                     response.end("verbage.txt created")
                 }
             })
